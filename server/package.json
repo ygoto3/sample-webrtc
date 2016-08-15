@@ -1,0 +1,16 @@
+{
+  "name": "sample-webrtc-server",
+  "version": "0.0.1",
+  "description": "A sample project for WebRTC server",
+  "main": "./server.js",
+  "scripts": {
+    "init": "npm install",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yusuke Goto",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^1.1.1"
+  }
+}
